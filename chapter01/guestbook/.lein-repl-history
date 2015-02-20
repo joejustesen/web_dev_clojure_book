@@ -1,0 +1,27 @@
+(use 'guestbook.repl)
+(start-server)
+(stop-server)
+(start-server 3000)
+(start-server [3000])
+(start-server "3000"))
+(start-server"3000"))
+(start-server "3000")
+(stop-server)
+(start-server "3000")
+(use 'guestbook.models.db)
+(start-server
+)
+(use 'guestbook.repl)
+(start-server)
+quit
+(use 'guestbook.repl)
+(start-server)
+(use 'guestbook.models.db)
+(create-guestbook-table)
+(start-server)
+(stop-server)
+(start-server)
+quit
+(use 'guestbook.repl)
+(start-server)
+quit
